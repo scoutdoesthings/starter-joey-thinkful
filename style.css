@@ -50,3 +50,21 @@ body {
     */
     list-style: none;
   }
+
+  header nav ul li a {
+    /* The link color is white. */
+    color: #fff;
+    /* Removes the underline from the link. */
+    text-decoration: none;
+    /* Applies 20 pixels of margin to the right of each link 
+       creating a visual gap between the navigation links. */
+    margin: 0 20px 0 0;
+  }
+  
+  header nav ul li:last-child a {
+    /* Removes the margin to the right of the last anchor tag 
+       so that the nav appears centered. */
+    margin-right: 0;
+  }
+
+  
