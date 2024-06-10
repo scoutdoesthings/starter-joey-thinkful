@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+  }
+  
+  header {
+    /* Sets background color to dark blue. */
+    background-color: #0B1C51;
+    /* Adds 40 pixels of space under the header
+       so that the main content isn't so close
+       to the navigation. */
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    /* Sets text color to white. */
+    color: #fff;
+    /* Centers the text. */
+    text-align: center;
+    /* Removes the default margin and spacing around the `h1` element. */
+    margin: 0;
+    /* Pushes the text down 20 pixels from the top of the page. */
+    padding-top: 20px;
+  }
