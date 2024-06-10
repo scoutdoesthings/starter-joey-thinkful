@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font: Montserrat;
   }
   
   header {
@@ -20,7 +21,6 @@ body {
     margin: 0;
     /* Pushes the text down 20 pixels from the top of the page. */
     padding-top: 20px;
-    
     font-size: 52px;
   }
 
@@ -29,7 +29,7 @@ body {
     display: flex;
     /* Centers an element defined as `display: flex`. */
     justify-content: center;
-  }
+    }
   
   header nav ul {
     /* Changes the display property from its default to `flex`. */
@@ -39,7 +39,6 @@ body {
       the default value for `display: flex`, so you don't need
       to define its `flex-direction` in this case.
     */
-  
     /*
       Removes the default padding to the left of the
       unordered list.
@@ -81,6 +80,7 @@ body {
       /* Adds 0 pixels padding top and bottom, and 30 pixels padding 
          left and right. */
       padding: 0 30px;
+    
     }
   
     header h1 {
@@ -89,7 +89,6 @@ body {
       margin: 14px 0;
       /* Removes or sets 0 pixels of padding above the `h1`. */
       padding-top: 0;
-
       font-size 48px;
     }
   
